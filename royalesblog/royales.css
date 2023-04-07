@@ -1,0 +1,121 @@
+body {
+    background-image: url(royales-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+}
+#h1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#a1, #a2, #a3 {
+    border: 1px solid white;
+    margin: 3px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: solid;
+    
+}
+
+#a1:hover, #a2:hover, #a3:hover{
+    text-decoration: underline;
+    text-shadow: 4px;
+}
+
+#info {
+    flex: auto;
+    float: right;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    color: white;
+    font-size:xx-large;
+    text-decoration: wavy;
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    
+}
+
+#info {
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    
+}
+
+#footer-1 {
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    position: static;
+    background-color: black;
+    width: 100%;
+    margin-left:0cqmax;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#box-1 {
+    border: 3px solid white;
+    margin-right: 70%;
+    padding-top: 2px;
+    color: white;
+    background-color: black;
+    margin-bottom: 7px;
+    padding-bottom: 10px;
+}
+
+#box-2 {
+    border: 3px solid white;
+    margin-left: 100px;
+    margin-right: 800px;
+    padding-top: 2px;
+    color: white;
+    background-color: black;
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+}
+
+#box-3 {
+    border: 3px solid white;
+    margin-right: 70%;
+    padding-top: 2px;
+    color: white;
+    background-color: black;
+    margin-bottom: 7px;
+    margin-left: 200px;
+    margin-right: 650px;
+    padding-bottom: 10px;
+    margin-top: -25px;
+    
+}    
